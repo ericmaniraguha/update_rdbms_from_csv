@@ -49,3 +49,10 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 *This project was created by [Eric Maniraguha](https://github.com/ericmaniraguha/update_rdbms_from_csv.git).*
+
+## Screenshoot images: 
+
+![image](https://github.com/ericmaniraguha/update_rdbms_from_csv/assets/44385819/0578ea7b-c62c-4c4f-bb0c-6b05e616a698)
+![image](https://github.com/ericmaniraguha/update_rdbms_from_csv/assets/44385819/f663956e-8dc5-45a2-b7c4-07f06f3ed878)
+
+
