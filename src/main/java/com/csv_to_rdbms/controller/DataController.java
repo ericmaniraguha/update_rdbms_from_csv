@@ -1,6 +1,7 @@
 package com.csv_to_rdbms.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +18,13 @@ public class DataController {
 
     @PostMapping("/update-data")
     public ResponseEntity<String> updateData() {
-        dataService.updateDataFromCSV();
-        return ResponseEntity.ok("Data updated successfully");
+        try {
+            dataService.updateDataFromCSV();
+            return ResponseEntity.ok("Data updated successfully");
+        } catch (Exception e) {
+            // Handle exceptions and return an appropriate error response
+            String errorMessage = "An error occurred while updating data: " + e.getMessage();
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorMessage);
+        }
     }
 }
