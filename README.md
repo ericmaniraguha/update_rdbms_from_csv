@@ -53,6 +53,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Screenshoot images: 
 
 ![image](https://github.com/ericmaniraguha/update_rdbms_from_csv/assets/44385819/0578ea7b-c62c-4c4f-bb0c-6b05e616a698)
-![image](https://github.com/ericmaniraguha/update_rdbms_from_csv/assets/44385819/f663956e-8dc5-45a2-b7c4-07f06f3ed878)
-
+![image](https://github.com/ericmaniraguha/update_rdbms_from_csv/assets/44385819/109f3fb0-a1b6-48e8-b64c-0f6c620fc2af)
 
